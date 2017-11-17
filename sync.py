@@ -1,6 +1,10 @@
 import os
 import time
 
+def call_classifier():
+	print('call classifier on ' + filename)
+
+
 output = os.system("rsync -avz root@35.196.83.72:/home/hanqijing/video-poster/uploads/ uploads/")
 
 print('Download the new video list...')
@@ -35,6 +39,7 @@ for filename in os.listdir(foldername):
     	# if float(time.time() - mtime) <= 500 and 
     	if finished_stamp not in finished_list:
     		# call vijay pipeline
-    		print('call classifier on ' + filename)
+    		call_classifier()
+    		
     		# print a time stamp to show the file is processed
     		stamp(foldername, filename)
