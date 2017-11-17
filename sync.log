@@ -1,0 +1,24 @@
+receiving file list ... done
+created directory uploads
+./
+3.mp4
+gps.txt
+
+sent 66 bytes  received 30213116 bytes  2627233.22 bytes/sec
+total size is 31246003  speedup is 1.03
+Download the new video list...
+0
+call classifier on 3.mp4
+receiving file list ... done
+./
+
+sent 22 bytes  received 98 bytes  80.00 bytes/sec
+total size is 31246003  speedup is 260383.36
+Download the new video list...
+0
+receiving file list ... done
+
+sent 16 bytes  received 92 bytes  72.00 bytes/sec
+total size is 31246003  speedup is 289314.84
+Download the new video list...
+0

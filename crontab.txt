@@ -1,0 +1,3 @@
+#FILE_PATH="/Users/hjing/Code/cornell/kaltura/pipeline"
+FILE_PATH=""
+* * * * * python $FILE_PATH/sync.py >> $FILE_PATH/sync.log
